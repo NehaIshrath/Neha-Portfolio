@@ -2,6 +2,9 @@
 
 const themeToggle = document.querySelector(".theme-toggle");
 
+document.body.classList.add("light-mode");
+themeToggle.textContent = "🌙";
+
 themeToggle.addEventListener("click", () => {
 
     document.body.classList.toggle("light-mode");
